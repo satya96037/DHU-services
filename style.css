@@ -1,0 +1,81 @@
+/* జనరల్ స్టైల్స్ */
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+header {
+  background-color: #002e5b;
+  color: white;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+header h1 { margin: 0; font-size: 2.5rem; }
+header p { margin: 10px 0 0; font-size: 1.2rem; opacity: 0.9; }
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* గ్రిడ్ మరియు కార్డ్ స్టైల్స్ */
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+}
+
+.service-card {
+  background: white;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.service-card:hover { transform: translateY(-10px); }
+
+.image-banner {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+}
+
+.content { padding: 20px; text-align: center; }
+.content h3 { color: #002e5b; margin-bottom: 10px; }
+.content p { font-size: 0.9rem; color: #666; line-height: 1.4; }
+
+/* బటన్స్ */
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.call { background: #007bff; color: white; }
+.whatsapp { background: #25d366; color: white; }
+.book { background: #002e5b; color: white; }
+
+.btn:hover { opacity: 0.8; }
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
