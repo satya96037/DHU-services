@@ -6,7 +6,7 @@ header h1 { margin: 0; font-size: 30px; }
 header p { margin: 8px 0 0; font-size: 16px; opacity: 0.9; }
 
 .container { max-width: 1200px; margin: auto; padding: 20px; }
-.service-grid { display: grid; grid-template-columns: repeat(3,1fr, minmax(320px, 1fr)); gap: 30px; }
+.service-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 30px; }
 @media (max-width: 768px) {
 .service-grid { grid-template-columns: 1fr; 
                gap: 20px
