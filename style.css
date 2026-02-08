@@ -26,4 +26,19 @@ header p { margin: 8px 0 0; font-size: 16px; opacity: 0.9; }
 .whatsapp { background: #25d366; }
 .book { background: var(--blue); }
 
+.main-logo {
+    width: 150px; /* లోగో వెడల్పు */
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 50%; /* లోగో రౌండ్‌గా ఉంటే ఇది బాగుంటుంది */
+    border: 3px solid white; /* లోగో చుట్టూ వైట్ బోర్డర్ */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* చిన్న నీడ */
+}
+
+@media (max-width: 768px) {
+    .main-logo {
+        width: 120px; /* మొబైల్‌లో కొంచెం చిన్నగా */
+    }
+}
+
 footer { text-align: center; padding: 30px; color: #888; }
