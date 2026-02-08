@@ -1,0 +1,20 @@
+{
+  "name": "DHU Multi Manpower Services",
+  "short_name": "DHU Services",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#002e5b",
+  "theme_color": "#002e5b",
+  "icons": [
+    {
+      "src": "https://i.postimg.cc/qM6n8pYx/dhu-logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://i.postimg.cc/qM6n8pYx/dhu-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
