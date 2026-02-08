@@ -22,11 +22,11 @@
     {
       "src": "https://i.postimg.cc/Mps7ZcRs/logo.jpg",
       "sizes": "192x192",
-      "type": "image/png"
+      "type": "image/jpeg"
     },
     {
       "src": "https://i.postimg.cc/Mps7ZcRs/logo.jpg",
       "sizes": "512x512",
-      "type": "image/jpng"
+      "type": "image/jpeg"
     }
 ]
